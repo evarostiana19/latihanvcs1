@@ -1,4 +1,4 @@
-# HERLIYANSYAH- 312010387
+# EVA ROSTIANA DEWI- 312010295
 # KELAS: TI.20.A2
 # # PENGGUNAAN GIT 
 
@@ -14,8 +14,10 @@
 * Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
 * Selamat, Git sudah terinstal di Windows. Untuk mencobanya,silahkan buka **CMD** atau **PowerShell**, kemudian ketik perintah
 
-``git --version``
-![Screenshot (4)](https://user-images.githubusercontent.com/72916741/96329697-bfce7d00-1079-11eb-9052-d5c3373ec184.png)
+``git --version
+![git version bener1](https://user-images.githubusercontent.com/73016992/96366668-3b602500-1173-11eb-9f2f-6acf62ee3ee1.jpg)
+
+
 
 ### Menambahkan Global Config
 * Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi ``user.name dan user.email``
@@ -67,7 +69,9 @@ $ cd latihan1``
 `$ echo “# Latihan 1” >> README.md`
 * File **README.md** berhasil dibuat.
 
-![Screenshot (5)](https://user-images.githubusercontent.com/72916741/96330291-53a24800-107e-11eb-8d0f-f5b76e3b2329.png)
+
+![awal2](https://user-images.githubusercontent.com/73016992/96366673-42873300-1173-11eb-98c1-9e0b09e4d40d.jpg)
+
 
 ### Menambahkan File baru pada repository
 
@@ -75,7 +79,11 @@ $ cd latihan1``
 `$ git add README.md`
 * File **README.md** berhasil ditambahkan.
 
-![Screenshot (7)](https://user-images.githubusercontent.com/72916741/96330753-fd370880-1081-11eb-9068-61deb9b3ffaf.png)
+
+![git push(3)](https://user-images.githubusercontent.com/73016992/96366678-49ae4100-1173-11eb-852e-df82c2094a05.jpg)
+
+
+
 
 ### `Commit` (Menyimpan perubahan ke database)
 
@@ -83,7 +91,9 @@ $ cd latihan1``
 `$ git commit -m “File pertama saya”`
 * Perubahan berhasil disimpan.
 
-![Screenshot (11)](https://user-images.githubusercontent.com/72916741/96331119-e9d96c80-1084-11eb-9bc3-1829540ae513.png)
+
+![commit4](https://user-images.githubusercontent.com/73016992/96366682-50d54f00-1173-11eb-9135-35465902ddd4.jpg)
+
 
 
 ### Membuat repository server
@@ -93,7 +103,9 @@ $ cd latihan1``
 * Pada laman github, klik tombol start a project, atau
 * Dari menu (icon +) klik New Repository
 
-![Screenshot (1)](https://user-images.githubusercontent.com/72916741/96107964-3eef7400-0f07-11eb-9f99-01278f784f64.png)
+
+![server 1(5)](https://user-images.githubusercontent.com/73016992/96366685-57fc5d00-1173-11eb-9399-5db8d82f1a36.jpg)
+
 
 
 ### Membuat repository server
@@ -115,7 +127,8 @@ $ cd latihan1``
 `$ git push -u origin master`
 * Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
-![Screenshot (13)](https://user-images.githubusercontent.com/72916741/96331202-9fa4bb00-1085-11eb-8030-90700efa0451.png)
+
+![push(6)](https://user-images.githubusercontent.com/73016992/96366692-60549800-1173-11eb-8df9-dd95136b81b2.jpeg)
 
 
 ### Melihat hasilnya pada server repository
@@ -123,7 +136,10 @@ $ cd latihan1``
 * Buka laman github.com, arahkan pada repositorinya.
 * Maka perubahan akan terlihat pada laman tersebut.
 
-![Screenshot (2)](https://user-images.githubusercontent.com/72916741/96108575-ef5d7800-0f07-11eb-8dcc-3f0dc413c566.png)
+
+![server akhir](https://user-images.githubusercontent.com/73016992/96366698-677ba600-1173-11eb-8962-30a22115b1d4.jpg)
+
+
 
 
 ### Clone Repository
@@ -131,7 +147,9 @@ $ cd latihan1``
 * Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 * Untuk melakukan cloning, gunakan perintah `git clone [url]`
 
-![Screenshot (9)](https://user-images.githubusercontent.com/72916741/96330815-aed63980-1082-11eb-8850-49261976de26.png)
+
+![clone](https://user-images.githubusercontent.com/73016992/96366701-6e0a1d80-1173-11eb-9bdb-582bcaf4d20c.jpg)
+
 
 ### Kegunaan file README.md
 
